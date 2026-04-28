@@ -15,3 +15,11 @@ main dt {
 main dd {
   font-size: 0.8rem;
 }
+
+@media (max-width: 600px) {
+  main h1,
+  main p {
+    color: #fff;
+    text-shadow: 0 2px 6px rgba(0,0,0,0.6);
+  }
+}
